@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Gradient Background */
+.gradient-background {
+  background: linear-gradient(300deg, #EFE3C2, #3E7B27, #198754, #123524);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Profile Image */
+.profile {
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #46464630;
+}
+
+/* Text Colors */
+.title-text-colour {
+  color: #F8F9FA;
+}
+
+.sub-heading-colour {
+  color: #198754;
+}
+
+.job-title {
+  color: #212529;
+  font-weight: 500;
+}
+
+.company-name {
+  color: #6C757D;
+  font-weight: 400;
+}
+
+.job-date {
+  color: #868E96;
+  font-style: italic;
+}
+
+.achievement-title {
+  font-weight: 500; 
+  color: #5D646F;
+}
+
+/* Button Styling */
+.btn-dark {
+  background-color: #343a40;
+  color: white;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
